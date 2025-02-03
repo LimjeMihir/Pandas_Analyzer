@@ -227,6 +227,7 @@ while True:
         obj.visualize_data()
 
     elif choice == 7:
+        print("== Save Visualization ==\n")
         filename = input("Enter file name to save the plot (e.g., 'scatter_plot.png'): ")
         obj.save_visualization(filename)
 
