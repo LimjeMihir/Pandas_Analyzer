@@ -123,6 +123,7 @@ class Data_Analyzer():
                 print(f"Missing values replaced with {value}.")
             elif option == 5:
                 print("Exiting the program.....")
+                break
             else:
                 print("Invalid Choice!Please try again....")
 
